@@ -136,25 +136,25 @@ Public helper functions:
 ## File structure
 
 ```text
-mornrain-clean-head/
-|-- .github/
-|   `-- workflows/
-|       `-- build.yml
-|-- includes/
-|   |-- class-mornrain-clean-head-assets.php
-|   |-- class-mornrain-clean-head-emoji.php
-|   |-- class-mornrain-clean-head.php
-|   `-- functions-clean-head.php
-|-- tests/
-|   |-- ScaffoldTest.php
-|   `-- bootstrap.php
-|-- mornrain-clean-head.php
-|-- composer.json
-|-- LICENSE
-|-- phpunit.xml.dist
-|-- README.md
-|-- readme.txt
-`-- uninstall.php
+mornrain-clean-head/                           # MornRain Clean Head 插件根目录：精简 wp_head 输出
+|-- .github/                                   # GitHub 仓库配置目录
+|   `-- workflows/                             # GitHub Actions 工作流目录
+|       `-- build.yml                          # CI 工作流：在 PHP 8.1–8.3 上 lint、跑 PHPUnit 并打包 ZIP 构件
+|-- includes/                                  # 插件 PHP 源码目录
+|   |-- class-mornrain-clean-head-assets.php   # 资源类：移除 enqueue 资源 URL 上的 ?ver= 版本参数
+|   |-- class-mornrain-clean-head-emoji.php    # emoji 类：分离 emoji 检测脚本、样式与 TinyMCE 的 wpemoji 插件
+|   |-- class-mornrain-clean-head.php          # 主控制器：按设置开关在 wp_head 挂载各项清理
+|   `-- functions-clean-head.php               # 辅助函数：默认开关、读取设置、开关判断与输入校验
+|-- tests/                                     # PHPUnit 测试目录
+|   |-- ScaffoldTest.php                       # 脚手架冒烟测试：断言 README、LICENSE、composer.json 存在
+|   `-- bootstrap.php                          # PHPUnit 引导文件：存在时才加载 Composer 自动加载器
+|-- mornrain-clean-head.php                    # 插件入口：声明插件头并加载 includes
+|-- composer.json                              # Composer 元数据与 lint/test 脚本
+|-- LICENSE                                    # GPL-2.0-or-later 许可证全文
+|-- phpunit.xml.dist                           # PHPUnit 配置，扫描 tests 目录
+|-- README.md                                  # 插件说明文档
+|-- readme.txt                                 # WordPress 插件目录要求的 readme.txt
+`-- uninstall.php                              # 卸载脚本：删除 mornrain_clean_head_settings 选项（含多站点）
 ```
 
 ---
@@ -222,4 +222,3 @@ every site of a multisite network.
 
 Released under the **GNU General Public License v2 or later**. See
 [LICENSE](LICENSE) for the full text.
-*（内容由AI生成，仅供参考）*
