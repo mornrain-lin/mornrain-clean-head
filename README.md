@@ -1,14 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: cf93d2ba4252e3fc820ac383cb09c649_7cd18871be7a11f197eb525400393706
-    ReservedCode1: 85NELrgphdZSbcDKtrB15qTseIWAb4Jn6grj5lNt/NYMGmZh0ZmmqMDpeEkM4XkzReJ9suQ1rAQ9qdKj89Trz6mNrjfUx8dkLS2ABKPmnW1u/S6o/tTSj3OiYHyEqdwRqCGIYaiwSy37S5C4VzFHrXk/3lLQzzCNKEnBgk0rTaLNiMsrLmB4PgN7MTs=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: cf93d2ba4252e3fc820ac383cb09c649_7cd18871be7a11f197eb525400393706
-    ReservedCode2: 85NELrgphdZSbcDKtrB15qTseIWAb4Jn6grj5lNt/NYMGmZh0ZmmqMDpeEkM4XkzReJ9suQ1rAQ9qdKj89Trz6mNrjfUx8dkLS2ABKPmnW1u/S6o/tTSj3OiYHyEqdwRqCGIYaiwSy37S5C4VzFHrXk/3lLQzzCNKEnBgk0rTaLNiMsrLmB4PgN7MTs=
----
-
 # MornRain Clean Head
 
 > A leaner <head>: no emoji script, no version banners, no legacy discovery links.
