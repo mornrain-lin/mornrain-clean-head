@@ -1,4 +1,4 @@
-![mornrain-clean-head](assets/admin.png)
+![mornrain-clean-head](assets/preview.png)
 
 # MornRain Clean Head
 
@@ -19,10 +19,6 @@ the site owner explicitly configures.
 | Class prefix | `Mornrain_Clean_Head` |
 
 ---
-
-## 界面预览
-
-![插件激活与简介页](assets/admin.png)
 
 ## Table of contents
 
