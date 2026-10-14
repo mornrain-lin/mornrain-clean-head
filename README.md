@@ -1,3 +1,5 @@
+![mornrain-clean-head](assets/preview.png)
+
 # MornRain Clean Head
 
 > A leaner <head>: no emoji script, no version banners, no legacy discovery links.
